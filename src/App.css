@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+nav{
+  background-color: black;
+}
+ul{
+  display:flex;
+  list-style-type: none;
+}
+li{
+  flex-grow:1;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  display:block;
+  text-align: center;
+  color:white;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+}
+a:hover{
+  color:yellow;
+}
+section{
+  padding-top:30px ;
+  text-align: center;
+}
+.active{
+  border-bottom-color: red ;
+}
+.home_selected{
+  border-bottom-color: orange ;
+}
+.contact_selected{
+  border-bottom-color: green ;
+}
+.blog_selected{
+  border-bottom-color: blue ;
+}
+.shop_active{
+  background-color: gray ;
+}
