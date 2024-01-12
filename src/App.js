@@ -29,7 +29,7 @@ function App() {
                     backgroundColor: "gray",
                   }}
                 >
-                  Strona Główna
+                  Strona Głównaxxx
                 </NavLink>
               </li>
               <li>
